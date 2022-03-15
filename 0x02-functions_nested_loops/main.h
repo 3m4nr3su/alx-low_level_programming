@@ -35,4 +35,10 @@ int _islower(int c);
 
 int _isalpha(int c);
 
+/**
+ * prints the signofa no.
+ */
+
+int print_sign(int n);
+
 #endif
