@@ -10,4 +10,10 @@
 
 int positive_or_negative(int i);
 
+/**
+ * largest_number - prints largest no. out of 3
+ */
+
+int largest_number(int, int, int);
+
 #endif
