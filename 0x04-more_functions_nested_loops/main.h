@@ -41,4 +41,10 @@ void print_numbers(void);
 
 void print_most_numbers(void);
 
+/**
+ * prints 1-14 10 times, each in anew line
+ */
+
+void more_numbers(void);
+
 #endif
