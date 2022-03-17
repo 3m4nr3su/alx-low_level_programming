@@ -77,4 +77,11 @@ void print_diagonal(int n);
 
 void print_square(int size);
 
+/**
+ * print_triangle - print traingle of #'s
+ * @size: dimensions
+ */
+
+void print_triangle(int size);
+
 #endif
