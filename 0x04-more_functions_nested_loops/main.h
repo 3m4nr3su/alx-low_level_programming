@@ -5,26 +5,35 @@
  * _putchar - writes the character c to stdout
  * @c: The character to print
  *
- * Return: On success 1.
- * On error, -1 is returned, and error is set appropriately.
+ * Return: On success 1 . On error, -1 .
  */
 
 int _putchar(char c);
 
 /**
- * checks for uppercase alphabetic character
+ * _isupper - checks for uppercase alphabetic character
+ * @c: letter
+ *
+ * Return: result
  */
 
 int _isupper(int c);
 
 /**
- * checks for a digit (0 through 9)
+ * _isupper - checks for a digit (0 through 9)
+ * @c: gigitty
+ *
+ * Return: result
  */
 
 int _isdigit(int c);
 
 /**
- * multiplies two integers
+ * _isdigit - multiplies two integers
+ * @a: num1
+ * @b: num2
+ *
+ * Return: product
  */
 
 int mul(int a, int b);
@@ -46,5 +55,12 @@ void print_most_numbers(void);
  */
 
 void more_numbers(void);
+
+/**
+ *more_numbers - draws a straight line in the terminal
+ * @n: underscore
+ */
+
+void print_line(int n);
 
 #endif
