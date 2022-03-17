@@ -63,4 +63,11 @@ void more_numbers(void);
 
 void print_line(int n);
 
+/**
+ *print_diagonal - draws a straight line in the terminal
+ * @n: spaces
+ */
+
+void print_diagonal(int n);
+
 #endif
