@@ -29,4 +29,10 @@ int _isdigit(int c);
 
 int mul(int a, int b);
 
+/**
+ * prints 0-9
+ */
+
+void print_numbers(void);
+
 #endif
