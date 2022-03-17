@@ -29,7 +29,7 @@ int largest_number(int a, int b, int c);
 * Return: day of year
 */
 
-int convert_day(int month, int day)
+int convert_day(int month, int day);
 
 /**
 * print_remaining_days - takes a date and prints how many days are
