@@ -29,4 +29,10 @@ void swap_int(int *a, int *b);
 
 int _strlen(char *s);
 
+/**
+ * _puts - prints a string & \n
+ */
+
+void _puts(char *str);
+
 #endif
