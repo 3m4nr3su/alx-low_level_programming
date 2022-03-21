@@ -41,4 +41,34 @@ void _puts(char *str);
 
 void print_rev(char *s);
 
+/**
+ * rev_string - reverses a string
+ */
+
+void rev_string(char *s);
+
+/**
+ * puts2 - prints every other char of a string starting with the 1st. Ends with \n
+ */
+
+void puts2(char *str);
+
+/**
+ * puts_half - prints half of a string. If numof chars is odd, print 2nd half & \n
+ */
+
+void puts_half(char *str);
+
+/**
+ * print_array -  prints n elements of an array of ints & a \n
+ */
+
+void print_array(int *a, int n);
+
+/**
+ * _strcpy - copies string pointed to by src(including \0) to buffer pointed by dest
+ */
+
+char *_strcpy(char *dest, char *src);
+
 #endif
