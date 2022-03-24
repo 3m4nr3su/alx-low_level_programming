@@ -4,7 +4,7 @@
  * _strcmp - works like strcmp
  * @s1: string1
  * @s2: string2
- * Result: comparison
+ * Return: comparison
  */
 
 int _strcmp(char *s1, char *s2)
