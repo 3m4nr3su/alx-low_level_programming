@@ -49,4 +49,10 @@ void reverse_array(int *a, int n);
 
 char *string_toupper(char *s);
 
+/**
+ * cap_string - capitalises the first letter of all words of string
+ */
+
+char *cap_string(char *s);
+
 #endif
