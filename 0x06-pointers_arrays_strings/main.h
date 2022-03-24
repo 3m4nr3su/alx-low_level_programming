@@ -25,4 +25,10 @@ char *_strcat(char *dest, char *src);
 
 char *_strncat(char *dest, char *src, int n);
 
+/**
+ * _strncpy - function should work exactly like strncpy
+ */
+
+char *_strncpy(char *dest, char *src, int n);
+
 #endif
