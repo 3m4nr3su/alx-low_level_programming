@@ -17,4 +17,12 @@ int _putchar(char c);
 
 char *_strcat(char *dest, char *src);
 
+/**
+ * _strncat - concatenates two strings
+ * it will use at most n bytes from src; and
+ * src does not need to be null-terminated if it contains n/more bytes
+ */
+
+char *_strncat(char *dest, char *src, int n);
+
 #endif
